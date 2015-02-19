@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+    position: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 12pt;
+    text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9ecae1;
+}
+
+#graph {
+  margin-top: -1000px;
+}
+
+#plot {
+  margin-top: 0px;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke-width: .05px;
+  stroke: #bbb;
+}
+
+.bar {
+  fill: #99d8c9;
+  height: 200;
+  opacity: 0.5;
+}
+
+.bar:hover {
+  fill: orange;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
