@@ -1,3 +1,5 @@
+Visit: http://www.rosslagoy.com/brain-connectome.html
+
 The dataset you use. It should be related to biology and included with the source code, or at least a portion of it so I can run the program. (Note: if you went the database route you will need to demo your project to me, but still submit the code.)  
 For this project, I was inspired by the well-known, static, C. elegans connectivity map. I felt it could use a face-lift: user interactivity, filtering, and a quantitative comparison of neurons. I feel like I’ve successfully accomplished this with my node-link force directed diagram, adjacency matrix, and arc diagram.
  
@@ -48,7 +50,7 @@ All instructions on running my program are printed on the website screen.
 
 After searching:
 
-http://users.wpi.edu/~rosslagoy/connectome.html
+http://www.rosslagoy.com/brain-connectome.html
 
 The user should be able to see and use this visualization in any modern browser, linking to all of my visualizations.
 
